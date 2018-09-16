@@ -1,0 +1,19 @@
+{
+    "name": "oyjz/ghttp",
+    "description": "Simple Http client base on GuzzleHttp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oyjz",
+            "email": "503ouyang@sina.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "Ghttp\\":"src"
+        }
+    }
+}
